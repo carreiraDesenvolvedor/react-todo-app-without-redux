@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56092645-aed0-46b2-9706-bb088c90ba49" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/package-lock.json" afterPath="$PROJECT_DIR$/backend/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/package.json" afterPath="$PROJECT_DIR$/backend/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/node_modules/minimist/example/parse.js" afterPath="$PROJECT_DIR$/frontend/node_modules/minimist/example/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/node_modules/minimist/index.js" afterPath="$PROJECT_DIR$/frontend/node_modules/minimist/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/frontend/node_modules/minimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/node_modules/minimist/readme.markdown" afterPath="$PROJECT_DIR$/frontend/node_modules/minimist/readme.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/node_modules/minimist/test/bool.js" afterPath="$PROJECT_DIR$/frontend/node_modules/minimist/test/bool.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/package-lock.json" afterPath="$PROJECT_DIR$/frontend/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/package.json" afterPath="$PROJECT_DIR$/frontend/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
