@@ -6,9 +6,13 @@ import TodoList from './List'
 
 import axios from 'axios'
 
-const URL = 'http://localhost:3003/api/todos'
+import Url from '../config/url'
+
+const URL = new Url();
 
 export default class Todo extends Component{
+
+
 
     constructor(props){
 
@@ -32,7 +36,7 @@ export default class Todo extends Component{
     }
 
     handleRemove(todo){
-        axios.delete(`${URL}/${todo._id}`)
+        axios.delete(`${URL._TODOS}/${todo._id}`)
             .then(resp=>this.refresh(this.state.description))
     }
 
@@ -40,7 +44,7 @@ export default class Todo extends Component{
 
         const search = description ? `&description__regex=/${description}/` : ''
 
-        axios.get(`${URL}?sort=createdAt${search}`).
+        axios.get(`${URL._TODOS}?sort=createdAt${search}`).
             then(res=>this.setState({...this.state, description, list: res.data}))
     }
 
@@ -60,20 +64,20 @@ export default class Todo extends Component{
 
         const description = this.state.description;
 
-        axios.post(URL, {description})
+        axios.post(URL._TODOS, {description})
             .then( resp => this.refresh())
 
     }
 
     handleMarkAsDone(todo){
 
-        axios.put(`${URL}/${todo._id}`, {...todo, done: true})
+        axios.put(`${URL._TODOS}/${todo._id}`, {...todo, done: true})
             .then(resp => this.refresh(this.state.description))
 
     }
 
     handleMarkAsPending(todo){
-        axios.put(`${URL}/${todo._id}`, {...todo, done: false})
+        axios.put(`${URL._TODOS}/${todo._id}`, {...todo, done: false})
             .then(resp => this.refresh(this.state.description))
     }
 
@@ -81,7 +85,7 @@ export default class Todo extends Component{
         return(
             <div>
 
-                <PageHeader name={"Tarefas"} small={"Cadastro"} />
+                <PageHeader name={"Tasks"} small={"Add"} />
 
                 <TodoForm
                     description={this.state.description}

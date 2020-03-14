@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --display-error-details",
-    "build": "webpack",
-    "dev": "webpack-dev-server --progress --colours --inline --hot"
+    "dev": "webpack-dev-server --display-error-details --progress --colours --inline --hot",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",

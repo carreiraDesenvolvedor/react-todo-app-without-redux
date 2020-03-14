@@ -27,7 +27,7 @@ export default props =>
                 <div className={"col-xs-12 col-sm-9 col-md-10"}>
                     <input
                         id={"description"}
-                        placeholder={"Adicione sua tarefa"}
+                        placeholder={"Add your task!"}
                         className={"form-control"}
                         value={props.description}
                         onKeyUp={keyHandler}
@@ -36,7 +36,6 @@ export default props =>
                 </div>
 
             </Grid>
-
 
             <Grid cols='12 3 2'>
 
@@ -59,8 +58,6 @@ export default props =>
                     style={"default"}
                     icon={"close"}
                 />
-
-
 
             </Grid>
         </div>

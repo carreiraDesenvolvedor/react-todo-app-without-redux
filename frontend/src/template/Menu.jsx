@@ -25,11 +25,11 @@ export default props => (
                 <ul className="nav navbar-nav">
 
                     <li>
-                        <Link to="/todos">Tarefas</Link>
+                        <Link to="/todos">Tasks</Link>
                     </li>
 
                     <li>
-                        <Link to="/about">Sobre</Link>
+                        <Link to="/about">About</Link>
                     </li>
                 </ul>
             </div>
