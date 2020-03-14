@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56092645-aed0-46b2-9706-bb088c90ba49" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/package-lock.json" afterPath="$PROJECT_DIR$/backend/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/package.json" afterPath="$PROJECT_DIR$/backend/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/node_modules/minimist/example/parse.js" afterPath="$PROJECT_DIR$/frontend/node_modules/minimist/example/parse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/node_modules/minimist/index.js" afterPath="$PROJECT_DIR$/frontend/node_modules/minimist/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/frontend/node_modules/minimist/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/node_modules/minimist/readme.markdown" afterPath="$PROJECT_DIR$/frontend/node_modules/minimist/readme.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/node_modules/minimist/test/bool.js" afterPath="$PROJECT_DIR$/frontend/node_modules/minimist/test/bool.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/package-lock.json" afterPath="$PROJECT_DIR$/frontend/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/package.json" afterPath="$PROJECT_DIR$/frontend/package.json" />
-    </list>
+    <list default="true" id="56092645-aed0-46b2-9706-bb088c90ba49" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -249,12 +238,12 @@
       <option name="presentableId" value="Default" />
       <updated>1584125572443</updated>
       <workItem from="1584125573737" duration="4616000" />
-      <workItem from="1584181796463" duration="2180000" />
+      <workItem from="1584181796463" duration="2182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6796000" />
+    <option name="totallyTimeSpent" value="6798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -395,6 +384,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
